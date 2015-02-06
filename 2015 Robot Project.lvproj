@@ -120,7 +120,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Deadzone.vi" Type="VI" URL="../Deadzone.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
-			<Item Name="ScaleJS.vi" Type="VI" URL="../../2015-DB/ScaleJS.vi"/>
+			<Item Name="ScaleJS.vi" Type="VI" URL="../ScaleJS.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
@@ -639,7 +639,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{980EAAB3-3632-4C6E-8261-281A41A3B1DC}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
