@@ -122,10 +122,12 @@ AddOutputFilter chunkFilter
 			<Item Name="ControlSolenoids.vi" Type="VI" URL="../ControlSolenoids.vi"/>
 			<Item Name="ConvertBoolToFWDREV.vi" Type="VI" URL="../ConvertBoolToFWDREV.vi"/>
 			<Item Name="Deadzone.vi" Type="VI" URL="../Deadzone.vi"/>
+			<Item Name="Distance.vi" Type="VI" URL="../Distance.vi"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="ErrorOut.ctl" Type="VI" URL="../ErrorOut.ctl"/>
 			<Item Name="InitializeSolenoid.vi" Type="VI" URL="../InitializeSolenoid.vi"/>
 			<Item Name="ReverseSolenoid.vi" Type="VI" URL="../ReverseSolenoid.vi"/>
+			<Item Name="RevSecToVelo.vi" Type="VI" URL="../RevSecToVelo.vi"/>
 			<Item Name="ScaleJS.vi" Type="VI" URL="../ScaleJS.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
