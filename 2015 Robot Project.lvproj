@@ -120,6 +120,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="AutoToggle.vi" Type="VI" URL="../AutoToggle.vi"/>
 			<Item Name="BuildTalonArray.vi" Type="VI" URL="../BuildTalonArray.vi"/>
+			<Item Name="CircleMath.vi" Type="VI" URL="../CircleMath.vi"/>
 			<Item Name="CollectTalonArray.vi" Type="VI" URL="../CollectTalonArray.vi"/>
 			<Item Name="ControlSolenoids.vi" Type="VI" URL="../ControlSolenoids.vi"/>
 			<Item Name="ConvertBoolToFWDREV.vi" Type="VI" URL="../ConvertBoolToFWDREV.vi"/>
@@ -131,6 +132,7 @@ AddOutputFilter chunkFilter
 			<Item Name="InitializeSolenoid.vi" Type="VI" URL="../InitializeSolenoid.vi"/>
 			<Item Name="ReverseSolenoid.vi" Type="VI" URL="../ReverseSolenoid.vi"/>
 			<Item Name="RevSecToVelo.vi" Type="VI" URL="../RevSecToVelo.vi"/>
+			<Item Name="Rotational.vi" Type="VI" URL="../Rotational.vi"/>
 			<Item Name="ScaleJS.vi" Type="VI" URL="../ScaleJS.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
@@ -251,6 +253,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Make Table Operation.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Make Table Operation.ctl"/>
 				<Item Name="Manage Connection List.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Manage Connection List.vi"/>
@@ -273,6 +276,8 @@ AddOutputFilter chunkFilter
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="Not A Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Not A Semaphore.vi"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -478,12 +483,14 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_ConfigSoftLimits.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ConfigSoftLimits.vi"/>
 				<Item Name="WPI_CANTalonSRX_ControlMode.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_ControlMode.ctl"/>
 				<Item Name="WPI_CANTalonSRX_FeedbackSelect.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_FeedbackSelect.ctl"/>
+				<Item Name="WPI_CANTalonSRX_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GetStatus.vi"/>
 				<Item Name="WPI_CANTalonSRX_Global.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Global.vi"/>
 				<Item Name="WPI_CANTalonSRX_GlobalControl.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GlobalControl.ctl"/>
 				<Item Name="WPI_CANTalonSRX_GlobalOps.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GlobalOps.ctl"/>
 				<Item Name="WPI_CANTalonSRX_GlobalStatus.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_GlobalStatus.ctl"/>
 				<Item Name="WPI_CANTalonSRX_MessageIDs.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_MessageIDs.ctl"/>
 				<Item Name="WPI_CANTalonSRX_Params.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Params.ctl"/>
+				<Item Name="WPI_CANTalonSRX_Receive.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Receive.vi"/>
 				<Item Name="WPI_CANTalonSRX_Send.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_Send.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetParameter.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetParameter.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
